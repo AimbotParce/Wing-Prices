@@ -10,6 +10,22 @@ As someone on the internet pointed out, the price per wing graph for this menu, 
 
 ![Price per wing](https://github.com/AimbotParce/Wing-Prices/blob/main/about/Price_per_wing.png?raw=true)
 
+Some have even tried to come up with a strategy to calculate the price of buying N wings for any N:
+
+$$
+n \text{ wings} \approx \frac{1}{20} \left\lfloor 20 \times \frac{\$17 n}{15}\right\rfloor
+$$
+
+But as the person who came up with it poited out, this formula breaks down at 24 wings.
+
+Now this itself is already very interesting, but for those of us who love chicken wings, there's not enough with knowing the price, but we want to get the best deal. So, with the help of my excel skills (this is what my physics degree has ended up in), it was easy to find what the best deal for N wings is: The cheapest overall cost per wing is $1.112, which can be obtained by buying 25, 50 or 125 wings; and the most expensive overall cost per wing is $1.14, for 5 wings. This is consistent with what people have been pointing up in some comments.
+
+But here's my concern: What happens if I want to buy 34 wings? Or 57? Or 169? How much am I paying there? Some might say "Well, 34 wings is a 30 pack plus a 4 pack, for a total of $38.05" and to that I say: You fools, If you would have bought a 25 pack and a 9 pack, you would have saved $0.05!
+
+So, finally, here's what all of this is about: Let's say I want to save as much money as possible, but still buy N chicken wings. What's the absolute minimum I can pay, and how do I get there? **Don't worry, I've got you covered.** [Here's my study](#The-Study) on the matter, with [the table of the best combinations to get N wings from 1 to 500](#Results).
+
+
+Here's the table with all the data used for this analysis:
 | Chicken   Wing Count (w) | Price ($) | Wing Increment (Δw) | Price Increment   (Δ$) | New Wings Price   (Δ$/Δw) | Price per wing   ($/w) |
 |--------------------------|-----------|---------------------|------------------------|---------------------------|------------------------|
 | 4                        | $4.55     | 4                   | $4.55                  | $1.1375                   | $1.1375                |
@@ -52,3 +68,12 @@ As someone on the internet pointed out, the price per wing graph for this menu, 
 | 125                      | $139.00   | 25                  | $27.75                 | $1.1100                   | $1.1120                |
 | 150                      | $166.85   | 25                  | $27.85                 | $1.1140                   | $1.1123                |
 | 200                      | $222.50   | 50                  | $55.65                 | $1.1130                   | $1.1125                |
+
+
+## The Study
+
+"The algorithm explained"
+
+## Results
+
+"the table"
