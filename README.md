@@ -71,7 +71,9 @@ For those of you who want to try this yourselves, here's the table with all the 
 
 ## The Study
 
-The study is still in process
+The study is still in process, you can read the code if you want, but keep in mind there's dozens of comments in which I am trying to make sense of the mathematics behind this, so it's not very clean.
+
+If you want to help me, you can contact me at [marcparcerisa@gmail.com](mailto:marcparcerisa@gmail.com).
 
 ## Results
 
