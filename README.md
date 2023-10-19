@@ -8,7 +8,7 @@ With the caption "Surely, there's gotta be a better way of conveying this inform
 
 As someone on the internet pointed out, the price per wing graph for this menu, depending on the wing total makes for an amazing minimization problem to get the best price for N wings.
 
-![Price per wing](https://github.com/AimbotParce/Wing-Prices/blob/main/about/Price_per_wing.jpg?raw=true)
+![Price per wing](https://github.com/AimbotParce/Wing-Prices/blob/main/about/Price_per_wing.png?raw=true)
 
 | Chicken   Wing Count (w) | Price ($) | Wing Increment (Δw) | Price Increment   (Δ$) | New Wings Price   (Δ$/Δw) | Price per wing   ($/w) |
 |--------------------------|-----------|---------------------|------------------------|---------------------------|------------------------|
