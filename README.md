@@ -4,7 +4,7 @@ Somebody on Reddit posted this some days ago:
 
 ![Wings Menu](https://github.com/AimbotParce/Wing-Prices/blob/main/about/Wings_menu.jpg?raw=true)
 
-With someone who responded "Surely, there's gotta be a better way of conveying this information", which unveiled dozens of comments from people who, like me, can only be described as psychopaths. That's because it's not the way in which the information is structured, what drove us crazy, but it was the fact that, when looking it from a closer perspective, the prices do not follow any sort pattern!
+With someone who responded "Surely, there's gotta be a better way of conveying this information", which unveiled dozens of comments from people who, like me, can only be described as psychopaths. That's because it's not the way in which the information is structured, what drove us crazy, but it was the fact that, when looking at it from a closer perspective, the prices do not follow any sort pattern!
 
 As someone on the internet pointed out, the price per wing graph for this menu over the total wings makes for an amazing minimization problem to get the best price for N wings:
 
