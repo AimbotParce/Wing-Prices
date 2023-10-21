@@ -34,3 +34,5 @@ for i in range(MIN, MAX):
     if mem > 9000:  # 8 GB
         print("ERROR: Stoping because it will take too much memory")
         quit()
+
+    # No need to continue here. The meshgrid grows too big too fast to be useful.
