@@ -3,8 +3,10 @@ import pandas as pd
 
 wings = pd.read_excel("Wings.xlsx", sheet_name="Wings")
 
+MAX = 500
+MIN = wings[wings["Chicken Wing Count (w)"] <= MAX].iloc[0]["Chicken Wing Count (w)"]
 
-for i in range(4, 500):
+for i in range(MIN, MAX):
     lower = wings[wings["Chicken Wing Count (w)"] <= i]
     counts = lower["Chicken Wing Count (w)"].values
     prices = lower["Price ($)"].values

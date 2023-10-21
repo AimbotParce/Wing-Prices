@@ -7,6 +7,10 @@ import pandas as pd
 wings = pd.read_excel("Wings.xlsx", sheet_name="Wings")
 
 
+MAX = 500
+MIN = wings[wings["Chicken Wing Count (w)"] <= MAX].iloc[0]["Chicken Wing Count (w)"]
+
+
 def predict(knowX, knowY, newX):
     fit = np.polyfit(knowX, np.log(knowY), 1)
     return np.exp(fit[1]) * np.exp(fit[0] * newX)
@@ -30,7 +34,8 @@ plt.show()
 Fullx = np.arange(0, 500)
 exes, times, solutionCounts = [], [], []
 
-for i in range(4, 500):
+
+for i in range(MIN, MAX):
     lower = wings[wings["Chicken Wing Count (w)"] <= i]
     counts = lower["Chicken Wing Count (w)"].values
     prices = lower["Price ($)"].values
