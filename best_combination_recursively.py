@@ -83,3 +83,6 @@ for i in range(4, 500):
     print(f"{i}) {len(solutions)} solutions found")
 
     # No need to continue. After around 40 wings, the time it takes to find all solutions starts to become too long.
+
+    # My first idea was to make a meshgrid of all possible values of x, y, z, ... and then brute force it. However,
+    # the memory requirements for this are too high.
